@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    text-align: center;
+    color: aquamarine;
+}
+
+.box {
+    width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+    border-left: 10px dashed #D0D0FF;
+    font-family: Tahoma;
+    font-size: 40px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.boxD {
+    width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+    font-family: Tahoma;
+    font-size: 40px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.box:hover {
+    background-color: yellow;
+    color: goldenrod;
+}
+
+.final-box {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+    border-left: 10px dashed #D0D0FF;
+    font-family: Tahoma;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.final-box:hover {
+    background-color: yellow;
+    color: goldenrod;
+}

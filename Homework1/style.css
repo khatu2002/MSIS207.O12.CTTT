@@ -1,0 +1,139 @@
+body {
+    font-family: sans-serif;
+}
+
+.Profile-Experience {
+    display: flex;
+}
+
+.Profile {
+    margin-right: 100px;
+}
+
+.About-Details {
+    display: flex;
+}
+
+.About {
+    display: inline-block;
+}
+
+.About h2 {
+    text-align: center;
+    color: green;
+}
+
+.Details {
+    display: inline-block;
+}
+
+.Profile h1 {
+    text-align: center;
+    color: green
+}
+
+.Profile h3 {
+    text-align: center;
+}
+
+.Details h2 {
+    text-align: center;
+    color: green
+}
+
+img {
+    width: 150px;
+    float: right;
+    margin-left: 20px;
+}
+
+.Experience {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+.Experience h1 {
+    text-align: center;
+    color: green
+}
+
+.Edu-inf-one {
+    padding-right: 20px;
+    margin-right: 50px;
+}
+
+.edu {
+    display: flex;
+}
+
+.Working-Ex {
+    display: flex;
+}
+
+
+
+.Skill img {
+    width: 20px;
+}
+
+.Skill .box {
+    position: relative;
+    width: 40%;
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+}
+
+.Skill .box h4 {
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+}
+
+.Skill .box .percent {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #f0f0f0;
+}
+
+.Skill .box .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(238, 154, 45);
+}
+
+.Language .box {
+    position: relative;
+    width: 40%;
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+}
+
+.Language .box h4 {
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+}
+
+.Language .box .percent {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #f0f0f0;
+}
+
+.Language .box .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(238, 154, 45);
+}
+
+.Skill-Lan {}
