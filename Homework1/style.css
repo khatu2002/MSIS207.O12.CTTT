@@ -7,7 +7,8 @@ body {
 }
 
 .Profile {
-    margin-right: 100px;
+    margin-right: 2%;
+    width: 58%;
 }
 
 .About-Details {
@@ -41,14 +42,21 @@ body {
     color: green
 }
 
+.Details li {
+    list-style-type: none;
+}
+
 img {
+    padding-top: 20px;
+    padding-right: 20px;
     width: 150px;
+    height: 150px;
     float: right;
     margin-left: 20px;
 }
 
 .Experience {
-    max-width: 60%;
+    max-width: 50%;
     margin: 0 auto;
     padding: 20px;
     background-color: antiquewhite;
@@ -72,18 +80,24 @@ img {
     display: flex;
 }
 
-
+.Ability {
+    background: antiquewhite;
+    width: 47.2%;
+}
 
 .Skill img {
     width: 20px;
 }
 
+.Skill {
+    margin-left: 2%;
+}
+
 .Skill .box {
     position: relative;
-    width: 40%;
+    width: 80%;
     display: grid;
     grid-template-columns: auto;
-    justify-items: center;
 }
 
 .Skill .box h4 {
@@ -109,10 +123,9 @@ img {
 
 .Language .box {
     position: relative;
-    width: 40%;
+    width: 80%;
     display: grid;
     grid-template-columns: auto;
-    justify-items: center;
 }
 
 .Language .box h4 {
@@ -136,4 +149,11 @@ img {
     background: rgb(238, 154, 45);
 }
 
-.Skill-Lan {}
+.Skill-Lan {
+    display: flex;
+}
+
+.Language {
+    padding-left: 2%;
+    width: 50%;
+}
