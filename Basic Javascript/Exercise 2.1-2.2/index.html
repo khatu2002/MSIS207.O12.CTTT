@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <form id="myForm">
+
+            <strong style="font-size: 25px">Log in</strong>
+            <hr>
+            <div class="form-group-one"><label class="text-muted">Email address</label>
+                <br><input class="box-email" type="email" placeholder="Enter email">
+                <br><small>We don't share email with anyone</small>
+            </div>
+            <div class="form-group-two"><label class="text-muted">Password</label>
+                <br>
+                <div class="input-container">
+                    <input class="box-password" type="password" placeholder="Password">
+                    <i class="far fa-eye" id="togglePassword"></i>
+                </div>
+
+                <br><small>Your password is saved in encrypted form</small>
+            </div>
+            <input type="submit" value="Submit" id="submitButton">
+        </form>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

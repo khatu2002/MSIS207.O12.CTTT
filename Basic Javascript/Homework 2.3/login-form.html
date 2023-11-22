@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login-style.css">
+    <script type="text/javascript" src="js/login.js" async></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <div class="login-page" id="login">
+            <h1>Login</h1>
+            <div class="input-box">
+                <i class="fa fa-user-o"></i>
+                <input type="text" placeholder="Username" id="user">
+            </div>
+            <div class="input-box">
+                <i class="fa fa-key"></i>
+                <input type="password" placeholder="Password" id="pwd">
+                <span class="eye" id="eye-icon">
+                    <i class="fa fa-eye" id="hide-eye-slash"></i>
+                </span>
+
+            </div>
+            <button type="button" class="login-button" onclick="loginClick()"> Login</button>
+
+        </div>
+        <div class="login-page" id="hello">
+            <h3>Hello</h3>
+            <h1 id="user-name">Username</h1>
+            <p><a href="#" onclick="" logoutClick()>Logout</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
