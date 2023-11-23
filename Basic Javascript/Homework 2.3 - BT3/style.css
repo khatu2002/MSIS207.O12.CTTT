@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: beige;
+}
+
+.countdown-container {
+    text-align: center;
+}
+
+.title {
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    color: #333;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-item {
+    text-align: center;
+}
+
+#days,
+#hours,
+#minutes,
+#seconds {
+    display: block;
+    font-size: 1.5em;
+    color: #333;
+}
+
+span {
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 5px;
+}
