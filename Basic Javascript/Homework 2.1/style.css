@@ -17,6 +17,10 @@ h1 {
 
 .w.drum {
     background-image: url(img/icons8-drum-60.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
 
 }
 
@@ -45,7 +49,10 @@ h1 {
 
 .a.drum {
     background-image: url(img/icons8-tabla-48.png);
-
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
 }
 
 .a.drum.blinking {
@@ -71,15 +78,156 @@ h1 {
 }
 
 
-.s {}
+.s.drum {
+    background-image: url(img/icons8-cymbal-64.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+}
 
-.d {}
+.s.drum.blinking {
+    animation: blink 2s infinite;
+}
 
-.j {}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
 
-.k {}
+    50% {
+        opacity: 0;
+    }
 
-.l {}
+    100% {
+        opacity: 1;
+    }
+}
+
+.s.drum:hover {
+    color: blue;
+}
+
+.d.drum {
+    background-image: url(img/icons8-drum-64.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+}
+
+.d.drum.blinking {
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.d.drum:hover {
+    color: blue;
+}
+
+.j.drum {
+    background-image: url(img/icons8-sound-wave-64.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+}
+
+.j.drum.blinking {
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.j.drum:hover {
+    color: blue;
+}
+
+
+.k.drum {
+    background-image: url(img/icons8-tabla-48.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+}
+
+.k.drum.blinking {
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.k.drum:hover {
+    color: blue;
+}
+
+.l.drum {
+    background-image: url(img/icons8-drum-94.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+}
+
+.l.drum.blinking {
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.l.drum:hover {
+    color: blue;
+}
 
 .set {
     margin: 10% auto;

@@ -12,28 +12,34 @@
 
     <h1 id="drumTitle">Drum <img id="drumImg" src="img\icons8-drum-96.png" alt=""> Kit</h1>
     <div class="set">
-        <button class="w drum" onclick="playDrumSound()">w</button>
-        <audio id="drumSound">
+        <button class="w drum" onclick="playDrumSound('w')">w</button>
+        <audio id="drumSound-w">
             <source src="audio\mixkit-bad-joke-drums-2893.wav" type="audio/mpeg">
         </audio>
-        <button class="a drum" onclick="playDrumSound()">a</button>
-        <audio id="drumSound">
+        <button class="a drum" onclick="playDrumSound('a')">a</button>
+        <audio id="drumSound-a">
             <source src="audio\mixkit-achievement-win-drums-555.wav" type="audio/mpeg">
         </audio>
-        <button class="s drum" onclick="playDrumSound()">s</button>
-        <audio id="drumSound">
+        <button class="s drum" onclick="playDrumSound('s')">s</button>
+        <audio id="drumSound-s">
             <source src="audio\mixkit-drum-joke-accent-579.wav" type="audio/mpeg">
         </audio>
-        <button class="d drum" onclick="playDrumSound()">d</button>
-        <audio id="drumSound">
-            <source src="audio\mixkit-drum-roll-566.wav" type="audio/mpeg">
+        <button class="d drum" onclick="playDrumSound('d')">d</button>
+        <audio id="drumSound-d">
+            <source src="audio\tom-2.mp3" type="audio/mpeg">
         </audio>
-        <button class="j drum" onclick="playDrumSound()">j</button>
-        <audio id="drumSound">
+        <button class="j drum" onclick="playDrumSound('j')">j</button>
+        <audio id="drumSound-j">
             <source src="audio\mixkit-losing-drums-2023.wav" type="audio/mpeg">
         </audio>
-        <button class="k drum">k</button>
-        <button class="l drum">l</button>
+        <button class="k drum" onclick="playDrumSound('k')">k</button>
+        <audio id="drumSound-k">
+            <source src="audio\tom-1.mp3" type="audio/mpeg">
+        </audio>
+        <button class="l drum" onclick="playDrumSound('l')">l</button>
+        <audio id="drumSound-l">
+            <source src="audio\tom-4.mp3" type="audio/mpeg">
+        </audio>
     </div>
 
     <script src="script.js"></script>
