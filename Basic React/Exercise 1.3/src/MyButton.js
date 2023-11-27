@@ -4,7 +4,7 @@ const MyButton = ({ disabled, text }) => (
     <button disabled={disabled}>{text}</button>
 );
 MyButton.defaultProps = {
-    text: "My Buton",
+    text: "My Button",
     disabled: false,
 };
 
